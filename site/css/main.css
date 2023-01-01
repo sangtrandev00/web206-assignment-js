@@ -1,0 +1,19 @@
+.product-upper {
+    height: 26rem;
+}
+
+.product-upper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.single-shop-product {
+    text-align: center;
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.3);
+    padding-bottom: 2rem;
+}
+
+.col2-set {
+    margin-left: 0;
+}

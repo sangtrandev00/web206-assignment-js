@@ -1,0 +1,23 @@
+{
+  "name": "js-assignment-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "npm run generate-data && node main.js",
+    "generate-data": " node generate-data.js"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "json-server": "^0.17.1",
+    "lodash.debounce": "^4.0.8"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "nodemon": "^2.0.20",
+    "vite": "^4.0.0"
+  }
+}
